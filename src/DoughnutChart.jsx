@@ -28,7 +28,7 @@ export const data = {
     },
   ],
 };
-export function DoughnutChart() {
+export function DoughNutChart() {
   return (
     <Paper className="bar-chart" elevation={3}>
       <div className="heading">

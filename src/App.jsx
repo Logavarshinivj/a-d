@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Earnings from './Earnings'
 import { LineChart } from './LineChart'
-import { DoughnutChart } from './DoughNutChart'
+import { DoughNutChart } from './DoughNutChart'
 import { LinearIndeterminate } from './LinearIndeterminate'
 import { Illustrations } from './Illustration'
 import { ColorsList } from './ColorBar'
@@ -19,7 +19,7 @@ function App() {
     <Earnings />
     <div className="line-dough">
         <LineChart />
-        <DoughnutChart/>
+        <DoughNutChart/>
       </div>
     <div className="linear-illustration">
         <LinearIndeterminate />
