@@ -9,6 +9,7 @@ import { LinearIndeterminate } from './LinearIndeterminate'
 import { Illustrations } from './Illustration'
 import { ColorsList } from './ColorBar'
 import { Card, CardContent, Paper } from "@mui/material";
+
 function App() {
   
   return (
@@ -19,6 +20,7 @@ function App() {
     <Earnings />
     <div className="line-dough">
         <LineChart />
+       
         {/* <DoughNutChart /> */}
       </div>
     <div className="linear-illustration">
